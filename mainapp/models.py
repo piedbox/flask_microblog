@@ -1,13 +1,22 @@
 from mainapp import db
 from datetime import datetime
+from werkzeug.security import generate_password_hash, check_password_hash
+from flask_login import UserMixin
+from mainapp import login
 
 
-class User(db.Model):
+class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64), index=True, unique=True)
     email = db.Column(db.String(120), index=True, unique=True)
     password_hash = db.Column(db.String(128))
     posts = db.relationship('Post', backref='author', lazy='dynamic')
+
+    def set_password(self, password):
+        self.password_hash = generate_password_hash(password)
+
+    def check_password(self, password):
+        return check_password_hash(self.password_hash, password)
 
     def __repr__(self):
         return '<User {}>'.format(self.username)
@@ -21,3 +30,9 @@ class Post(db.Model):
 
     def __repr__(self):
         return '<Post {}>'.format(self.body)
+
+
+# Поскольку Flask-Login ничего не знает о базах данных, ему нужна помощь приложения при загрузке пользователя. По этой причине расширение ожидает, что приложение настроит функцию загрузчика пользователя, которую можно вызвать для загрузки пользователя с идентификатором.
+@login.user_loader
+def load_user(id):
+    return User.query.get(int(id))
