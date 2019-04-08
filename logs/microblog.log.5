@@ -1,0 +1,130 @@
+2019-04-05 18:23:55,098 INFO: Microblog startup [in /home/dark/flask_train/mainapp/__init__.py:48]
+2019-04-06 18:50:43,899 INFO: Microblog startup [in /home/dark/flask_train/mainapp/__init__.py:48]
+2019-04-06 18:51:02,948 INFO: Microblog startup [in /home/dark/flask_train/mainapp/__init__.py:48]
+2019-04-07 12:37:16,151 INFO: Microblog startup [in /home/dark/flask_train/mainapp/__init__.py:48]
+2019-04-07 13:41:30,890 INFO: Microblog startup [in /home/dark/flask_train/mainapp/__init__.py:48]
+2019-04-07 13:54:23,652 INFO: Microblog startup [in /home/dark/flask_train/mainapp/__init__.py:48]
+2019-04-07 13:54:48,480 ERROR: Exception on /follow/susan1 [GET] [in /home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/dark/flask_train/mainapp/routes.py", line 102, in follow
+    if user in None:
+TypeError: argument of type 'NoneType' is not iterable
+2019-04-07 13:55:30,114 ERROR: Exception on /follow/dark [GET] [in /home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/dark/flask_train/mainapp/routes.py", line 102, in follow
+    if user in None:
+TypeError: argument of type 'NoneType' is not iterable
+2019-04-07 13:57:25,609 ERROR: Exception on /follow/susan1 [GET] [in /home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/dark/flask_train/mainapp/routes.py", line 102, in follow
+    if user in None:
+TypeError: argument of type 'NoneType' is not iterable
+2019-04-07 14:06:11,338 INFO: Microblog startup [in /home/dark/flask_train/mainapp/__init__.py:48]
+2019-04-07 14:29:57,592 INFO: Microblog startup [in /home/dark/flask_train/mainapp/__init__.py:48]
+2019-04-07 14:32:17,014 INFO: Microblog startup [in /home/dark/flask_train/mainapp/__init__.py:48]
+2019-04-07 14:32:38,848 ERROR: Exception on /index [POST] [in /home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/dark/flask_train/mainapp/routes.py", line 16, in index
+    post = Post(body=form.post.data, authon=current_user)
+  File "<string>", line 4, in __init__
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/sqlalchemy/orm/state.py", line 441, in _initialize_instance
+    manager.dispatch.init_failure(self, args, kwargs)
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 129, in reraise
+    raise value
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/sqlalchemy/orm/state.py", line 438, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/sqlalchemy/ext/declarative/base.py", line 834, in _declarative_constructor
+    "%r is an invalid keyword argument for %s" % (k, cls_.__name__)
+TypeError: 'authon' is an invalid keyword argument for Post
+2019-04-07 14:34:42,841 INFO: Microblog startup [in /home/dark/flask_train/mainapp/__init__.py:48]
+2019-04-07 14:35:00,764 ERROR: Exception on /index [POST] [in /home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/dark/flask_train/mainapp/routes.py", line 16, in index
+    post = Post(body=form.post.data, authon=current_user)
+  File "<string>", line 4, in __init__
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/sqlalchemy/orm/state.py", line 441, in _initialize_instance
+    manager.dispatch.init_failure(self, args, kwargs)
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 129, in reraise
+    raise value
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/sqlalchemy/orm/state.py", line 438, in _initialize_instance
+    return manager.original_init(*mixed[1:], **kwargs)
+  File "/home/dark/flask_train/flask_env/lib/python3.7/site-packages/sqlalchemy/ext/declarative/base.py", line 834, in _declarative_constructor
+    "%r is an invalid keyword argument for %s" % (k, cls_.__name__)
+TypeError: 'authon' is an invalid keyword argument for Post
+2019-04-07 14:35:50,090 INFO: Microblog startup [in /home/dark/flask_train/mainapp/__init__.py:48]
+2019-04-07 17:09:38,262 INFO: Microblog startup [in /home/dark/flask_train/mainapp/__init__.py:48]
+2019-04-07 21:48:25,399 INFO: Microblog startup [in /home/dark/flask_train/mainapp/__init__.py:48]
