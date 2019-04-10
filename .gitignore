@@ -8,7 +8,6 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-flask_env/*
 build/
 develop-eggs/
 dist/
@@ -61,6 +60,9 @@ db.sqlite3
 instance/
 .webassets-cache
 
+# Flask babel stuff:
+*.pot
+
 # Scrapy stuff:
 .scrapy
 
@@ -83,6 +85,7 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
+flask_env/*
 .env
 .venv
 env/

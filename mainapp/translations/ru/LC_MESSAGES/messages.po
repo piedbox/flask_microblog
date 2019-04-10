@@ -1,0 +1,179 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-04-10 17:17+0300\n"
+"PO-Revision-Date: 2019-04-10 17:27+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: mainapp/__init__.py:22
+msgid "Please log in to access this page."
+msgstr "Пожалуйста войдите для доступа к этой странице."
+
+#: mainapp/forms.py:9 mainapp/forms.py:16 mainapp/forms.py:36
+msgid "Username"
+msgstr "Логин"
+
+#: mainapp/forms.py:10 mainapp/forms.py:18
+msgid "Password"
+msgstr "Пароль"
+
+#: mainapp/forms.py:11
+msgid "Remember Me"
+msgstr ""
+
+#: mainapp/forms.py:12 mainapp/templates/login.html:5
+msgid "Sign In"
+msgstr ""
+
+#: mainapp/forms.py:17
+msgid "Email"
+msgstr ""
+
+#: mainapp/forms.py:20
+msgid "Repeat Password"
+msgstr ""
+
+#: mainapp/forms.py:22 mainapp/routes.py:94 mainapp/templates/register.html:5
+msgid "Register"
+msgstr ""
+
+#: mainapp/forms.py:27 mainapp/forms.py:49
+msgid "Please use a different username."
+msgstr ""
+
+#: mainapp/forms.py:32
+msgid "Please use a different email address."
+msgstr ""
+
+#: mainapp/forms.py:37
+msgid "About me"
+msgstr ""
+
+#: mainapp/forms.py:39 mainapp/forms.py:54
+msgid "Submit"
+msgstr ""
+
+#: mainapp/forms.py:53
+msgid "Say something"
+msgstr ""
+
+#: mainapp/routes.py:28
+msgid "Your post is now live!"
+msgstr ""
+
+#: mainapp/routes.py:37
+msgid "Home"
+msgstr ""
+
+#: mainapp/routes.py:65
+msgid "Invalid username or password"
+msgstr ""
+
+#: mainapp/routes.py:73
+msgid "Sign in"
+msgstr ""
+
+#: mainapp/routes.py:92
+msgid "Congratulations, you are now a registered user!"
+msgstr ""
+
+#: mainapp/routes.py:125 mainapp/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr ""
+
+#: mainapp/routes.py:140
+#, python-format
+msgid "You are following %(username)s!"
+msgstr ""
+
+#: mainapp/routes.py:156
+#, python-format
+msgid "You are not following %(username)s."
+msgstr ""
+
+#: mainapp/templates/404.html:4
+msgid "Not found"
+msgstr ""
+
+#: mainapp/templates/404.html:5 mainapp/templates/500.html:6
+msgid "Back"
+msgstr ""
+
+#: mainapp/templates/500.html:4
+msgid "An unexpected error has occurred"
+msgstr ""
+
+#: mainapp/templates/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr ""
+
+#: mainapp/templates/_post.html:14
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr ""
+
+#: mainapp/templates/index.html:5
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr ""
+
+#: mainapp/templates/index.html:16 mainapp/templates/user.html:31
+msgid "Newer posts"
+msgstr ""
+
+#: mainapp/templates/index.html:21 mainapp/templates/user.html:36
+msgid "Older posts"
+msgstr ""
+
+#: mainapp/templates/login.html:12
+msgid "New User?"
+msgstr ""
+
+#: mainapp/templates/login.html:12
+msgid "Click to Register!"
+msgstr ""
+
+#: mainapp/templates/user.html:8
+msgid "User"
+msgstr ""
+
+#: mainapp/templates/user.html:11
+msgid "Last seen on"
+msgstr ""
+
+#: mainapp/templates/user.html:13
+#, python-format
+msgid "%(count)d followers"
+msgstr ""
+
+#: mainapp/templates/user.html:13
+#, python-format
+msgid "%(count)d following"
+msgstr ""
+
+#: mainapp/templates/user.html:15
+msgid "Edit your profile"
+msgstr ""
+
+#: mainapp/templates/user.html:17
+msgid "Follow"
+msgstr ""
+
+#: mainapp/templates/user.html:19
+msgid "Unfollow"
+msgstr ""
+
