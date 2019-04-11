@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-04-10 17:17+0300\n"
+"POT-Creation-Date: 2019-04-11 09:39+0300\n"
 "PO-Revision-Date: 2019-04-10 17:27+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -33,147 +33,187 @@ msgstr "Пароль"
 
 #: mainapp/forms.py:11
 msgid "Remember Me"
-msgstr ""
+msgstr "Запомнить"
 
 #: mainapp/forms.py:12 mainapp/templates/login.html:5
 msgid "Sign In"
-msgstr ""
+msgstr "Войти"
 
 #: mainapp/forms.py:17
 msgid "Email"
-msgstr ""
+msgstr "Почта"
 
 #: mainapp/forms.py:20
 msgid "Repeat Password"
-msgstr ""
+msgstr "Повтрите Пароль"
 
 #: mainapp/forms.py:22 mainapp/routes.py:94 mainapp/templates/register.html:5
 msgid "Register"
-msgstr ""
+msgstr "Регистрация"
 
 #: mainapp/forms.py:27 mainapp/forms.py:49
 msgid "Please use a different username."
-msgstr ""
+msgstr "Пожалуйста используйте другой логин."
 
 #: mainapp/forms.py:32
 msgid "Please use a different email address."
-msgstr ""
+msgstr "Пожалуйста используйте другой адрес почтового ящика."
 
 #: mainapp/forms.py:37
 msgid "About me"
-msgstr ""
+msgstr "Обо мне"
 
 #: mainapp/forms.py:39 mainapp/forms.py:54
 msgid "Submit"
-msgstr ""
+msgstr "Отправить"
 
 #: mainapp/forms.py:53
 msgid "Say something"
-msgstr ""
+msgstr "Напишите что-нибудь"
 
 #: mainapp/routes.py:28
 msgid "Your post is now live!"
-msgstr ""
+msgstr "Ваш пост опубликован"
 
-#: mainapp/routes.py:37
+#: mainapp/routes.py:37 mainapp/templates/base.html:21
 msgid "Home"
-msgstr ""
+msgstr "Главная"
+
+#: mainapp/routes.py:52 mainapp/templates/base.html:22
+msgid "Explore"
+msgstr "Новости"
 
 #: mainapp/routes.py:65
 msgid "Invalid username or password"
-msgstr ""
+msgstr "Неверный логин или пароль"
 
 #: mainapp/routes.py:73
 msgid "Sign in"
-msgstr ""
+msgstr "Войти"
 
 #: mainapp/routes.py:92
 msgid "Congratulations, you are now a registered user!"
-msgstr ""
+msgstr "Поздравляем, вы зарегистрированы."
+
+#: mainapp/routes.py:120
+msgid "Your changes have been saved."
+msgstr "Ваши изменения были сохранены."
 
 #: mainapp/routes.py:125 mainapp/templates/edit_profile.html:5
 msgid "Edit Profile"
-msgstr ""
+msgstr "Изменить профиль."
+
+#: mainapp/routes.py:133
+msgid "User %(username) not found."
+msgstr "Пользователь $(username) не найден."
+
+#: mainapp/routes.py:136
+msgid "You cannot follow yourself!"
+msgstr "Вы не можете подписаться на себя."
 
 #: mainapp/routes.py:140
 #, python-format
 msgid "You are following %(username)s!"
-msgstr ""
+msgstr "Вы подписаны на %(username)s!"
+
+#: mainapp/routes.py:149
+#, python-format
+msgid "User %(username)s not found."
+msgstr "Пользователь %(username) не найден."
+
+#: mainapp/routes.py:152
+msgid "You cannot unfollow yourself"
+msgstr "Вы не можете отписаться от себя как и подписаться."
 
 #: mainapp/routes.py:156
 #, python-format
 msgid "You are not following %(username)s."
-msgstr ""
+msgstr "Вы не подписаны на %(username)s."
 
 #: mainapp/templates/404.html:4
 msgid "Not found"
-msgstr ""
+msgstr "Не найдено."
 
 #: mainapp/templates/404.html:5 mainapp/templates/500.html:6
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 #: mainapp/templates/500.html:4
 msgid "An unexpected error has occurred"
-msgstr ""
+msgstr "Произошла неожиданная ошибка."
 
 #: mainapp/templates/500.html:5
 msgid "The administrator has been notified. Sorry for the inconvenience!"
-msgstr ""
+msgstr "Администратор был уведомлен. Извините за неудобство."
 
 #: mainapp/templates/_post.html:14
 #, python-format
 msgid "%(username)s said %(when)s"
-msgstr ""
+msgstr "%(username)s написал %(when)s"
+
+#: mainapp/templates/base.html:4
+msgid "Welcome to Microblog"
+msgstr "Добро пожаловать в Microblog"
+
+#: mainapp/templates/base.html:26
+msgid "Login"
+msgstr "Войти"
+
+#: mainapp/templates/base.html:28
+msgid "Profile"
+msgstr "Профиль"
+
+#: mainapp/templates/base.html:29
+msgid "Logout"
+msgstr "Выход"
 
 #: mainapp/templates/index.html:5
 #, python-format
 msgid "Hi, %(username)s!"
-msgstr ""
+msgstr "Привет, %(username)s!"
 
 #: mainapp/templates/index.html:16 mainapp/templates/user.html:31
 msgid "Newer posts"
-msgstr ""
+msgstr "Новые посты"
 
 #: mainapp/templates/index.html:21 mainapp/templates/user.html:36
 msgid "Older posts"
-msgstr ""
+msgstr "Старые посты"
 
 #: mainapp/templates/login.html:12
 msgid "New User?"
-msgstr ""
+msgstr "Новый пользователь?"
 
 #: mainapp/templates/login.html:12
 msgid "Click to Register!"
-msgstr ""
+msgstr "Кликните для Регистрации!"
 
 #: mainapp/templates/user.html:8
 msgid "User"
-msgstr ""
+msgstr "Пользователь"
 
 #: mainapp/templates/user.html:11
 msgid "Last seen on"
-msgstr ""
+msgstr "Последний раз был"
 
 #: mainapp/templates/user.html:13
 #, python-format
 msgid "%(count)d followers"
-msgstr ""
+msgstr "%(count)d подписчиков"
 
 #: mainapp/templates/user.html:13
 #, python-format
 msgid "%(count)d following"
-msgstr ""
+msgstr "%(count)d подписок"
 
 #: mainapp/templates/user.html:15
 msgid "Edit your profile"
-msgstr ""
+msgstr "Изменить профиль"
 
 #: mainapp/templates/user.html:17
 msgid "Follow"
-msgstr ""
+msgstr "Подписаться"
 
 #: mainapp/templates/user.html:19
 msgid "Unfollow"
-msgstr ""
-
+msgstr "Отписаться"
