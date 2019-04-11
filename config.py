@@ -15,3 +15,4 @@ class Config(object):
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     ADMINS = ['petrtatarinov@yandex.ru']
     LANGUAGES = ['en', 'ru']
+    YA_TRANSLATOR_KEY = os.environ.get('YA_TRANSLATOR_KEY')
