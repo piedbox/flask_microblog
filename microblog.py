@@ -1,5 +1,5 @@
-from mainapp import app, db, cli
-from mainapp.models import User, Post
+from mainapp import app, db, User, Post
+
 
 
 # регистрирует функцию как функцию контекста оболочки
