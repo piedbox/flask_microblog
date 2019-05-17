@@ -1,4 +1,5 @@
-from mainapp import app, db, User, Post
+from mainapp import app, db
+from mainapp.models import User, Post
 
 
 
